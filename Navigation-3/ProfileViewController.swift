@@ -5,4 +5,7 @@
 //  Created by mishotka on 20.06.2024.
 //
 
-import Foundation
+import UIKit
+class ProfileViewController: UIViewController {
+
+}
