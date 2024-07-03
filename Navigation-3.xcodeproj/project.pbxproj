@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		822B13112C2F0B64006A50B8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				82AD8D032C2468AD00FC6DE6 /* ProfileViewController.swift */,
+				82EFE2F42C2CA3EB000F4450 /* ProfileHeaderView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		82AD8CC52C234E1600FC6DE6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +76,7 @@
 				82AD8CD52C234E1600FC6DE6 /* FeedViewController.swift */,
 				82AD8D052C24857200FC6DE6 /* PostViewController.swift */,
 				82AD8D072C248C6E00FC6DE6 /* InfoViewController.swift */,
-				82AD8D032C2468AD00FC6DE6 /* ProfileViewController.swift */,
-				82EFE2F42C2CA3EB000F4450 /* ProfileHeaderView.swift */,
+				822B13112C2F0B64006A50B8 /* Profile */,
 				82AD8CDA2C234E1700FC6DE6 /* Assets.xcassets */,
 				82AD8CDC2C234E1700FC6DE6 /* LaunchScreen.storyboard */,
 				82AD8CDF2C234E1700FC6DE6 /* Info.plist */,
