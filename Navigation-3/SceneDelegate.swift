@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let feedViewController = FeedViewController()
         feedViewController.title = "News"
-        feedViewController.view.backgroundColor = .systemGray3
+        feedViewController.view.backgroundColor = .systemGray5
         
         
         let profileViewController = ProfileViewController()

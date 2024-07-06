@@ -12,30 +12,11 @@
 		82AD8CD62C234E1600FC6DE6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8CD52C234E1600FC6DE6 /* FeedViewController.swift */; };
 		82AD8CDB2C234E1700FC6DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82AD8CDA2C234E1700FC6DE6 /* Assets.xcassets */; };
 		82AD8CDE2C234E1700FC6DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82AD8CDC2C234E1700FC6DE6 /* LaunchScreen.storyboard */; };
-		82AD8CE92C234E1700FC6DE6 /* Navigation_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8CE82C234E1700FC6DE6 /* Navigation_3Tests.swift */; };
-		82AD8CF32C234E1700FC6DE6 /* Navigation_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8CF22C234E1700FC6DE6 /* Navigation_3UITests.swift */; };
-		82AD8CF52C234E1700FC6DE6 /* Navigation_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8CF42C234E1700FC6DE6 /* Navigation_3UITestsLaunchTests.swift */; };
 		82AD8D042C2468AD00FC6DE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8D032C2468AD00FC6DE6 /* ProfileViewController.swift */; };
 		82AD8D062C24857200FC6DE6 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8D052C24857200FC6DE6 /* PostViewController.swift */; };
 		82AD8D082C248C6E00FC6DE6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD8D072C248C6E00FC6DE6 /* InfoViewController.swift */; };
+		82EFE2F52C2CA3EB000F4450 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EFE2F42C2CA3EB000F4450 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		82AD8CE52C234E1700FC6DE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AD8CC62C234E1600FC6DE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82AD8CCD2C234E1600FC6DE6;
-			remoteInfo = "Navigation-3";
-		};
-		82AD8CEF2C234E1700FC6DE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82AD8CC62C234E1600FC6DE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82AD8CCD2C234E1600FC6DE6;
-			remoteInfo = "Navigation-3";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		82AD8CCE2C234E1600FC6DE6 /* Navigation-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,32 +26,14 @@
 		82AD8CDA2C234E1700FC6DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82AD8CDD2C234E1700FC6DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82AD8CDF2C234E1700FC6DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82AD8CE42C234E1700FC6DE6 /* Navigation-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82AD8CE82C234E1700FC6DE6 /* Navigation_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_3Tests.swift; sourceTree = "<group>"; };
-		82AD8CEE2C234E1700FC6DE6 /* Navigation-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82AD8CF22C234E1700FC6DE6 /* Navigation_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_3UITests.swift; sourceTree = "<group>"; };
-		82AD8CF42C234E1700FC6DE6 /* Navigation_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		82AD8D032C2468AD00FC6DE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82AD8D052C24857200FC6DE6 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		82AD8D072C248C6E00FC6DE6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		82EFE2F42C2CA3EB000F4450 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		82AD8CCB2C234E1600FC6DE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82AD8CE12C234E1700FC6DE6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82AD8CEB2C234E1700FC6DE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				82AD8CD02C234E1600FC6DE6 /* Navigation-3 */,
-				82AD8CE72C234E1700FC6DE6 /* Navigation-3Tests */,
-				82AD8CF12C234E1700FC6DE6 /* Navigation-3UITests */,
 				82AD8CCF2C234E1600FC6DE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				82AD8CCE2C234E1600FC6DE6 /* Navigation-3.app */,
-				82AD8CE42C234E1700FC6DE6 /* Navigation-3Tests.xctest */,
-				82AD8CEE2C234E1700FC6DE6 /* Navigation-3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,28 +68,12 @@
 				82AD8D052C24857200FC6DE6 /* PostViewController.swift */,
 				82AD8D072C248C6E00FC6DE6 /* InfoViewController.swift */,
 				82AD8D032C2468AD00FC6DE6 /* ProfileViewController.swift */,
+				82EFE2F42C2CA3EB000F4450 /* ProfileHeaderView.swift */,
 				82AD8CDA2C234E1700FC6DE6 /* Assets.xcassets */,
 				82AD8CDC2C234E1700FC6DE6 /* LaunchScreen.storyboard */,
 				82AD8CDF2C234E1700FC6DE6 /* Info.plist */,
 			);
 			path = "Navigation-3";
-			sourceTree = "<group>";
-		};
-		82AD8CE72C234E1700FC6DE6 /* Navigation-3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				82AD8CE82C234E1700FC6DE6 /* Navigation_3Tests.swift */,
-			);
-			path = "Navigation-3Tests";
-			sourceTree = "<group>";
-		};
-		82AD8CF12C234E1700FC6DE6 /* Navigation-3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				82AD8CF22C234E1700FC6DE6 /* Navigation_3UITests.swift */,
-				82AD8CF42C234E1700FC6DE6 /* Navigation_3UITestsLaunchTests.swift */,
-			);
-			path = "Navigation-3UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,42 +96,6 @@
 			productReference = 82AD8CCE2C234E1600FC6DE6 /* Navigation-3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82AD8CE32C234E1700FC6DE6 /* Navigation-3Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82AD8CFB2C234E1700FC6DE6 /* Build configuration list for PBXNativeTarget "Navigation-3Tests" */;
-			buildPhases = (
-				82AD8CE02C234E1700FC6DE6 /* Sources */,
-				82AD8CE12C234E1700FC6DE6 /* Frameworks */,
-				82AD8CE22C234E1700FC6DE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82AD8CE62C234E1700FC6DE6 /* PBXTargetDependency */,
-			);
-			name = "Navigation-3Tests";
-			productName = "Navigation-3Tests";
-			productReference = 82AD8CE42C234E1700FC6DE6 /* Navigation-3Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		82AD8CED2C234E1700FC6DE6 /* Navigation-3UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82AD8CFE2C234E1700FC6DE6 /* Build configuration list for PBXNativeTarget "Navigation-3UITests" */;
-			buildPhases = (
-				82AD8CEA2C234E1700FC6DE6 /* Sources */,
-				82AD8CEB2C234E1700FC6DE6 /* Frameworks */,
-				82AD8CEC2C234E1700FC6DE6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82AD8CF02C234E1700FC6DE6 /* PBXTargetDependency */,
-			);
-			name = "Navigation-3UITests";
-			productName = "Navigation-3UITests";
-			productReference = 82AD8CEE2C234E1700FC6DE6 /* Navigation-3UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,14 +108,6 @@
 				TargetAttributes = {
 					82AD8CCD2C234E1600FC6DE6 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					82AD8CE32C234E1700FC6DE6 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 82AD8CCD2C234E1600FC6DE6;
-					};
-					82AD8CED2C234E1700FC6DE6 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 82AD8CCD2C234E1600FC6DE6;
 					};
 				};
 			};
@@ -226,8 +125,6 @@
 			projectRoot = "";
 			targets = (
 				82AD8CCD2C234E1600FC6DE6 /* Navigation-3 */,
-				82AD8CE32C234E1700FC6DE6 /* Navigation-3Tests */,
-				82AD8CED2C234E1700FC6DE6 /* Navigation-3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +139,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82AD8CE22C234E1700FC6DE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82AD8CEC2C234E1700FC6DE6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,42 +150,13 @@
 				82AD8CD22C234E1600FC6DE6 /* AppDelegate.swift in Sources */,
 				82AD8D042C2468AD00FC6DE6 /* ProfileViewController.swift in Sources */,
 				82AD8CD42C234E1600FC6DE6 /* SceneDelegate.swift in Sources */,
+				82EFE2F52C2CA3EB000F4450 /* ProfileHeaderView.swift in Sources */,
 				82AD8D082C248C6E00FC6DE6 /* InfoViewController.swift in Sources */,
 				82AD8D062C24857200FC6DE6 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82AD8CE02C234E1700FC6DE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82AD8CE92C234E1700FC6DE6 /* Navigation_3Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82AD8CEA2C234E1700FC6DE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82AD8CF52C234E1700FC6DE6 /* Navigation_3UITestsLaunchTests.swift in Sources */,
-				82AD8CF32C234E1700FC6DE6 /* Navigation_3UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		82AD8CE62C234E1700FC6DE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82AD8CCD2C234E1600FC6DE6 /* Navigation-3 */;
-			targetProxy = 82AD8CE52C234E1700FC6DE6 /* PBXContainerItemProxy */;
-		};
-		82AD8CF02C234E1700FC6DE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82AD8CCD2C234E1600FC6DE6 /* Navigation-3 */;
-			targetProxy = 82AD8CEF2C234E1700FC6DE6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		82AD8CDC2C234E1700FC6DE6 /* LaunchScreen.storyboard */ = {
@@ -489,82 +343,6 @@
 			};
 			name = Release;
 		};
-		82AD8CFC2C234E1700FC6DE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6MKNWTDMH;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mihuil.first.Navigation-3Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation-3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation-3";
-			};
-			name = Debug;
-		};
-		82AD8CFD2C234E1700FC6DE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6MKNWTDMH;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mihuil.first.Navigation-3Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation-3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation-3";
-			};
-			name = Release;
-		};
-		82AD8CFF2C234E1700FC6DE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6MKNWTDMH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mihuil.first.Navigation-3UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Navigation-3";
-			};
-			name = Debug;
-		};
-		82AD8D002C234E1700FC6DE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6MKNWTDMH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mihuil.first.Navigation-3UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Navigation-3";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,24 +360,6 @@
 			buildConfigurations = (
 				82AD8CF92C234E1700FC6DE6 /* Debug */,
 				82AD8CFA2C234E1700FC6DE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82AD8CFB2C234E1700FC6DE6 /* Build configuration list for PBXNativeTarget "Navigation-3Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82AD8CFC2C234E1700FC6DE6 /* Debug */,
-				82AD8CFD2C234E1700FC6DE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82AD8CFE2C234E1700FC6DE6 /* Build configuration list for PBXNativeTarget "Navigation-3UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82AD8CFF2C234E1700FC6DE6 /* Debug */,
-				82AD8D002C234E1700FC6DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
