@@ -11,6 +11,7 @@ class PostViewController: UIViewController {
     init(title: String) {
         super.init(nibName: nil, bundle: nil)
         self.title = title
+        
     }
     
     required init?(coder: NSCoder) {
