@@ -1,3 +1,9 @@
+//
+//  PostViewController.swift
+//  Navigation-3
+//
+//  Created by mishotka on 20.06.2024.
+//
 
 import UIKit
 
@@ -5,6 +11,7 @@ class PostViewController: UIViewController {
     init(title: String) {
         super.init(nibName: nil, bundle: nil)
         self.title = title
+        
     }
     
     required init?(coder: NSCoder) {
